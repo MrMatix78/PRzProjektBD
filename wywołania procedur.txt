@@ -1,0 +1,5 @@
+EXEC dbo.SP_DevicesWorkForOperator '2022-11-01', '2022-11-30','PIOWTR'
+
+EXEC dbo.SP_ServiceOperationForOperator '2022-11-01', '2022-11-30','MARWIT'
+
+EXEC dbo.SP_DeviceLogsAllTime 'TOKFM1'
